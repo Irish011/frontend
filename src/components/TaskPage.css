@@ -1,0 +1,81 @@
+.task-page {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 26px;
+}
+
+.add-task-container {
+  display: flex;
+  margin-bottom: 23px;
+}
+
+.add-task-container input[type="text"] {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.btn-green {
+  margin-left: 10px;
+  padding: 12px 23px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+li input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.btn-red {
+  padding: 7px 12px;
+  font-size: 14px;
+  background-color: #edb009;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+li button.edit {
+  background-color: #edb009;
+}
+
+li button:hover {
+  background-color: #2196f3;
+}
+
+li button.edit:hover {
+  background-color: #edb009;
+}
